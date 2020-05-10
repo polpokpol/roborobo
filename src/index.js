@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
+// import Hello from './Hello.js'
+// import Card from './Card.js';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
+// import {robots} from './robots';
+// import CardList from './CardList.js';
+
+// let AA = <h1>asassad</h1>;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+	<App />,
   document.getElementById('root')
 );
 
